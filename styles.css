@@ -1,0 +1,40 @@
+.improve-prompt-btn {
+  background-color: #6f42c1;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  z-index: 9999;
+  height: 36px;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.improve-prompt-btn:hover:not(:disabled) {
+  background-color: #5a32a3;
+}
+
+.improve-prompt-btn.disabled,
+.improve-prompt-btn:disabled {
+  background-color: #4a4a4a !important;
+  color: #8e8e8e !important;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.improve-gemini {
+  margin-right: 8px;
+  margin-left: 4px;
+  height: 32px;
+  font-size: 12px;
+  border-radius: 16px;
+  padding: 4px 10px;
+}
